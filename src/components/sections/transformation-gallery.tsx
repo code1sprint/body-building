@@ -70,7 +70,7 @@ export function TransformationGallery() {
             sizes="(max-width: 896px) 100vw, 896px"
           />
           <div
-            className="absolute inset-0 overflow-hidden"
+            className="absolute inset-0 overflow-hidden bg-background"
             style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
           >
             <Image
